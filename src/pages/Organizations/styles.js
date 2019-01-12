@@ -9,6 +9,10 @@ const styles = StyleSheet.create({
   loading: {
     marginTop: metrics.baseMargin * 2,
   },
+  columnWrapper: {
+    marginHorizontal: metrics.baseMargin * 2,
+    justifyContent: 'space-between',
+  },
 });
 
 export default styles;
